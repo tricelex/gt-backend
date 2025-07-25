@@ -10,7 +10,7 @@ data_for_seo_agent = Agent(
     name="DataSEOAgent",
     instructions="You are a helpful assistant",
     description="DataForSEO Agent specialized in SEO analysis and data research",
-    # mcp_servers=mcp_servers, # <- local mcp server
+    mcp_servers=mcp_servers,
     # tools=[
     #     HostedMCPTool(      # <- public mcp server (requires ngrok)
     #         tool_config={
