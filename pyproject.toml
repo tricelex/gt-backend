@@ -1,0 +1,18 @@
+[project]
+name = "genta-backend"
+version = "0.1.0"
+description = "AI Agent with DataForSEO MCP Integration"
+requires-python = ">=3.11"
+dependencies = [
+    "agency-swarm",
+    "fastapi>=0.116.1",
+    "uvicorn>=0.35.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "python-dotenv>=1.0.0",
+    "httpx>=0.25.0",
+    "websockets>=12.0",
+]
+
+[tool.uv.sources]
+agency-swarm = { git = "https://github.com/VRSEN/agency-swarm.git", rev = "release/v1.0.0-beta" }
